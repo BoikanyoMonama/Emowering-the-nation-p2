@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SixWeekActivity">
+
+    <Button
+        android:id="@+id/btnChildMinding"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginEnd="227dp"
+        android:layout_marginBottom="45dp"
+        android:text="Child Minding"
+        app:layout_constraintBottom_toTopOf="@+id/btnCooking"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCooking"
+        android:layout_width="130dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="233dp"
+        android:layout_marginBottom="79dp"
+        android:text="Cooking"
+        app:layout_constraintBottom_toTopOf="@+id/btnGardenMaintenance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnChildMinding" />
+
+    <Button
+        android:id="@+id/btnGardenMaintenance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="194dp"
+        android:layout_marginBottom="205dp"
+        android:text="Garden Maintenance"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCooking" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="186dp"
+        android:layout_marginBottom="137dp"
+        android:text="Empowering the nation"
+        app:layout_constraintBottom_toTopOf="@+id/btnChildMinding"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All 6 week courses are R750"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="94dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
